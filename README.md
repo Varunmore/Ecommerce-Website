@@ -28,7 +28,7 @@ To run Redstore locally on your machine, follow these steps:
 1. Clone this repository to your local machine:
 
     ```
-    git clone https://github.com/your_username/redstore.git
+    git clone https://github.com/Varunmore/redstore.git
     ```
 
 2. Navigate to the directory of the cloned repository:
