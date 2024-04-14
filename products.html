@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>All Produts - RedStore</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/6b1fe56c89.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="IMAGES/RedStore_Img/images/logo.png" width="125px">
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Product</a></li>
+                            <li><a href="Aboutus.html">About</a></li>
+                            <li><a href="contactus.html">Contact</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img src="IMAGES/RedStore_Img/images/cart.png" width="30px" height="30px">
+                    <img src="IMAGES/RedStore_Img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+             </div>
+         </div> 
+     
+
+          <div class="small-container">
+
+            <div class="row row-2">
+                <h2>All Produts</h2>
+                <select>
+                    <option>Default Shorting</option>
+                    <option>Short by price</option>
+                    <option>Short by popularity</option>
+                    <option>Short by rating</option>
+                    <option>Short by sale</option>
+                </select>
+            </div>
+              
+              <div class="row">
+                <div class="col-4">
+                  <a href="products-details.html"><img src="IMAGES/RedStore_Img/images/product-1.jpg"></a>
+                  <a href="products-details.html"><h4>Red Printed T-Shirt</h4></a>
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <p>Rs.500</p>
+              </div>
+                  <div class="col-4">
+                    <img src="IMAGES/webcam.jpg">
+                    <h4>Logitech Webcam</h4>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs.3,300</p>
+                </div>
+                <div class="col-4">
+                    <img src="IMAGES/shirt.jpg">
+                    <h4>Printed T-shirt</h4>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs.600</p>
+                </div>
+                <div class="col-4">
+                    <img src="IMAGES/watch.jpg">
+                    <h4>Men's Watch</h4>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs.5500</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4">
+                    <img src="IMAGES/router.jpg">
+                    <h4>Wifi Router</h4>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs.1600</p>
+                </div>
+                <div class="col-4">
+                  <img src="IMAGES/gaminglaptop.jpg">
+                  <h4>ASUS ROG Gaming Loptop </h4>
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <p>Rs.75,699</p>
+              </div>
+              <div class="col-4">
+                  <img src="IMAGES/womenHoddie.jpg">
+                  <h4>PUMA Women Hoddie</h4>
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <p>Rs.1,490</p>
+              </div>
+              <div class="col-4">
+                  <img src="IMAGES/shoe1.jpg">
+                  <h4>Adidas Shoe</h4>
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <p>Rs.2,499</p>
+              </div>
+              <div class="col-4">
+                <img src="IMAGES/gitar.jpg">
+                <h4>YAMAHA F310 Gutiar</h4>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-alt"></i>
+                </div>
+                <p>Rs.9,450</p>
+            </div>
+            <div class="col-4">
+              <img src="IMAGES/controller.jpg">
+              <h4>NITHO Controller</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>Rs.750</p>
+          </div>
+          <div class="col-4">
+            <img src="IMAGES/logitech.jpg">
+            <h4>Logitech Gaming Mouse</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.1,500</p>
+        </div>
+        <div class="col-4">
+          <img src="IMAGES/headset.jpg">
+          <h4>HyperX Cloud heaset</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs.2,499</p>
+      </div>
+            </div>
+            <h2 class="title">Latest Produts</h2>
+            <div class="row">
+              <div class="col-4">
+                  <img src="IMAGES/home.jpg">
+                  <h4>Air Feyer with Tochscreen</h4>
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <p>Rs.5,319</p>
+              </div>
+              <div class="col-4">
+                <img src="IMAGES/home gym.jpg">
+                <h4>Home GYM Tools</h4>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.4,699</p>
+            </div>
+            <div class="col-4">
+                <img src="IMAGES/boatearbuds.jpg">
+                <h4>Boat Earbuds</h4>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-alt"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.1,799</p>
+            </div>
+            <div class="col-4">
+                <img src="IMAGES/oneplus/oneplus 9.jpg">
+                <h4>Oneplus 9</h4>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.38,000</p>
+            </div>
+            <div class="col-4">
+              <img src="IMAGES/toolsbox.jpg">
+              <h4>Tools Box</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>Rs.3500</p>
+          </div>
+          <div class="col-4">
+              <img src="IMAGES/macbook.jpg">
+              <h4>Macbook Air</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>Rs.1,34,000</p>
+          </div>
+          <div class="col-4">
+              <img src="IMAGES/fitness.jpg">
+              <h4>Fitness Watch</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>Rs.1900</p>
+          </div>
+          <div class="col-4">
+              <img src="IMAGES/tv.jpg">
+              <h4>MI SmartTV</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>Rs.33,000</p>
+          </div>
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>  
+
+
+   <!--------------footer--------------->
+   
+   <div class="footer">
+       <div class="continar">
+           <div class="row">
+               <div class="footer-col-1">
+                   <h3>Download Our App</h3>
+                   <p>Download App for Android and ios mobile phone.</p>
+                   <div class="app-logo">
+                       <img src="images/RedStore_Img/images/play-store.png">
+                       <img src="images/RedStore_Img/images/app-store.png">
+                   </div>
+               </div>
+               <div class="footer-col-2">
+                <img src="images/RedStore_Img/images/logo-white.png">
+                <p>Our Purpose Is To Sustainably Make the pleasure and Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+           </div>
+           <hr>
+           <p class="copyright">Copyright 2021</p>
+       </div>
+   </div>
+ <!---------------------js for toggle menu------------->
+ <script>
+     var MenuItems = document.getElementById("MenuItems");
+     
+     MenuItems.style.maxHeight = "0px";
+     
+     function menutoggle(){
+         if(MenuItems.style.maxHeight == "0px")
+         {
+            MenuItems.style.maxHeight = "200px";
+         }
+         else{
+            MenuItems.style.maxHeight = "0px";
+         }
+     }
+ </script>
+        
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>Get In Touch</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="text" id="email" placeholder="Email id" required>
+            <input type="text" id="text" placeholder="Phone no." required>
+            <textarea name="" id="message" rows="4" placeholder="How can we help you?"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "gahagiw654@goonby.com",
+                Password : "Jsins@12",
+                To : 'jsins639@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Contact Form Equiry",
+                Body : "And this is the body"
+            }).then(
+              message => alert(message)
+            );
+        }
+    </script>
+</body>
+</html>
